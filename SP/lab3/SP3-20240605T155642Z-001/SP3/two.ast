@@ -1,0 +1,15 @@
+READ
+
+JEZ Y
+
+X:
+PUSH 2
+SUB 
+JEZ Y
+JGZ X
+PRINT "ODD"
+END
+
+Y:
+PRINT "EVEN"
+END
